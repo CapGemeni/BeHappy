@@ -1,0 +1,121 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.historial_eventos.QueTeGustoEventoDialog">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_op60">
+
+        <LinearLayout
+            android:id="@+id/container_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/core_blue"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/boton_cerrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/screen_margin"
+                    android:contentDescription="@string/label_close"
+                    android:src="@mipmap/ic_close" />
+
+                <LinearLayout
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/boton_cerrar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/screen_margin">
+
+                    <TextView
+                        android:id="@+id/etiqueta_comentario"
+                        style="@style/Text.Size20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:gravity="center"
+                        android:text="¿Qué te gustó de
+nuestro evento?"
+                        android:textColor="@color/white" />
+
+
+                    <ImageView
+                        android:id="@+id/boton_1"
+                        android:layout_width="49dp"
+                        android:layout_height="49dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="34dp"
+                        android:background="@drawable/ic_flecha_verde"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <!---->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:background="@mipmap/bg_animometro_desc_white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="83dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="9dp"
+                    android:paddingRight="9dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edit_que_te_gusto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Cuéntanos más" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_que_te_gusto"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/img_enviar_comentario" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!---->
+        </LinearLayout>
+    </LinearLayout>
+</layout>

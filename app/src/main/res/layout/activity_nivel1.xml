@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.recompensas.Nivel1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_op60">
+
+        <LinearLayout
+            android:id="@+id/container_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:background="#85d1d1"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+
+                android:orientation="vertical">
+                <!--contenido-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/btn_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_close"
+                        android:layout_marginLeft="210dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="@string/label_close"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/diamante_anaranjado" />
+
+                    <LinearLayout
+                        android:layout_width="324dp"
+                        android:layout_height="70dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="243dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="8dp"
+                            android:gravity="center"
+                            android:text="Nivel 1"
+                            android:textColor="@color/white"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <!--segunda parte-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@mipmap/bg_animometro_desc_white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="324dp"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="207dp"
+                        android:layout_height="57dp"
+                        android:layout_marginLeft="60dp"
+                        android:gravity="center"
+                        android:text="¡Felicidades!"
+                        android:textColor="@color/blue"
+                        android:textSize="22dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="212dp"
+                    android:layout_height="57dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:text="Completaste tu misón"
+                    android:textColor="@color/black600"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <!--linearfinales-->
+        </LinearLayout>
+    </LinearLayout>
+
+
+</layout>

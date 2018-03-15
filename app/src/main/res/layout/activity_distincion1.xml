@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.animometro.Distincion1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#a08ad5">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:layout_weight="2"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btn_diamante_aqua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/estrella_distinciones1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Text.Size20"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:text="MIS DISTINCIONES"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/boton1"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/boton_redondo"
+                    android:gravity="center"
+                    android:text="22"
+                    style="@style/Text.Size20"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <TextView
+                    style="@style/Text.Size28"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:text="¡Eres el mejor!"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/Text.Size28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Si tus compañeros están realizando una labor increíble, ¡Reconócelos! y envía una distinción."
+            android:textColor="@color/black600"
+            android:textSize="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/Buscador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buscador" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/listDistincion1"
+                android:name="com.bbva.intranet.behappy.modules.recompensas.ListaDistincion1Fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_lista_distincion1"></fragment>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listDistincion2"
+                android:name="com.bbva.intranet.behappy.modules.recompensas.ListaDistincion2Fragment"
+                tools:layout="@layout/fragment_lista_distincion2">
+            </fragment>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listDistincion3"
+                android:name="com.bbva.intranet.behappy.modules.recompensas.ListaDistincion3Fragment"
+                tools:layout="@layout/fragment_lista_distincion3">
+            </fragment>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listDistincion4"
+                android:name="com.bbva.intranet.behappy.modules.recompensas.ListaDistincion4Fragment"
+                tools:layout="@layout/fragment_lista_distincion4">
+            </fragment>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listDistincion5"
+                android:name="com.bbva.intranet.behappy.modules.recompensas.ListaDistincion5Fragment"
+                tools:layout="@layout/fragment_lista_distincion5">
+            </fragment>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

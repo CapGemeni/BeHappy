@@ -1,0 +1,226 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.recompensas.ListaLogrosFragment">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+                  <!--contenido-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="120dp"
+                      android:orientation="vertical">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <Button
+                              android:layout_width="70dp"
+                              android:layout_height="70dp"
+                              android:layout_marginLeft="15dp"
+                              android:layout_marginTop="5dp"
+                              android:layout_gravity="center"
+                              android:background="@drawable/btn_diamante_gris_nivel1"/>
+                       <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="196dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginLeft="20dp"
+                               android:layout_marginTop="20dp"
+                               android:text="Misión: acumula 60 pts"
+                               android:textColor="@color/purple"
+                               android:textSize="16dp" />
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <TextView
+                               android:layout_width="198dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginLeft="20dp"
+                               android:layout_marginTop="10dp"
+                               android:text="Trabajo en grupo 20 pts"
+                               android:textColor="@color/black600"
+                               android:textSize="14dp" />
+                       </LinearLayout>
+
+                           <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                               <TextView
+                                   android:layout_width="200dp"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginLeft="20dp"
+                                   android:text="Pensar en grande 20 pts"
+                                   android:textColor="@color/black600"
+                                   android:textSize="14dp" />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content">
+
+                               <TextView
+                                   android:layout_width="201dp"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginLeft="20dp"
+                                   android:text="Cliente en centro 20 pts"
+                                   android:textColor="@color/black600"
+                                   android:textSize="14dp" />
+                           </LinearLayout>
+                       </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                    <!--diamantedos-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="120dp"
+                      android:orientation="vertical">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <Button
+                              android:layout_width="70dp"
+                              android:layout_height="70dp"
+                              android:layout_marginLeft="15dp"
+                              android:layout_marginTop="10dp"
+                              android:layout_gravity="center"
+                              android:background="@drawable/btn_diamante_gris_nivel2"/>
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
+
+                              <TextView
+                                  android:layout_width="202dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginLeft="20dp"
+                                  android:layout_marginTop="15dp"
+                                  android:text="Misión: acumula 120 pts"
+                                  android:textColor="@color/purple"
+                                  android:textSize="16dp" />
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content">
+
+                                  <TextView
+                                      android:layout_width="202dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="20dp"
+                                      android:layout_marginTop="10dp"
+                                      android:text="Trabajo en grupo 20 pts"
+                                      android:textColor="@color/black600"
+                                      android:textSize="14dp" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content">
+
+                                  <TextView
+                                      android:layout_width="200dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="20dp"
+                                      android:text="Pensar en grande 20 pts"
+                                      android:textColor="@color/black600"
+                                      android:textSize="14dp" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content">
+
+                                  <TextView
+                                      android:layout_width="200dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="20dp"
+                                      android:text="Cliente en centro 20 pts"
+                                      android:textColor="@color/black600"
+                                      android:textSize="14dp" />
+                              </LinearLayout>
+                          </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                   <!--trofeo-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="120dp"
+                      android:orientation="vertical">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <Button
+                              android:layout_width="70dp"
+                              android:layout_height="70dp"
+                              android:layout_marginLeft="15dp"
+                              android:layout_marginTop="10dp"
+                              android:layout_gravity="center"
+                              android:background="@drawable/btn_trofeo_nivel3"/>
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
+
+                              <TextView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginLeft="20dp"
+                                  android:layout_marginTop="15dp"
+                                  android:text="Misión: acumula 240 pts"
+                                  android:textColor="@color/purple"
+                                  android:textSize="16dp" />
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content">
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginTop="10dp"
+                                      android:layout_marginLeft="20dp"
+                                      android:textColor="@color/black600"
+                                      android:textSize="14dp"
+                                      android:text="Trabajo en grupo 20 pts"/>
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content">
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="20dp"
+                                      android:textColor="@color/black600"
+                                      android:textSize="14dp"
+                                      android:text="Pensar en grande 20 pts"/>
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content">
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="20dp"
+                                      android:textColor="@color/black600"
+                                      android:textSize="14dp"
+                                      android:text="Cliente en centro 20 pts"/>
+                              </LinearLayout>
+                          </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                   <!--linear final-->
+              </LinearLayout>
+          </ScrollView>
+
+</layout>

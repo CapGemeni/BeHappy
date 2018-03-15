@@ -1,0 +1,125 @@
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:context="com.bbva.intranet.behappy.modules.onboarding.OnBoardingFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.5"
+            android:orientation="vertical"
+            android:background="@color/core_blue">
+            <ImageView
+                android:id="@+id/iv_onboarding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_onboarding1"
+                android:layout_centerInParent="true"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:weightSum="13"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/aqua" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/navy" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/core_blue" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/medium_blue" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/light_blue" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:orientation="vertical"
+            android:padding="@dimen/screen_margin"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:orientation="vertical">
+                <com.bbva.intranet.behappy.components.FaceTextView
+                    android:id="@+id/tv_onboarding_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Text.Size20"
+                    android:text="Bhappy"
+                    android:textColor="@color/core_blue"/>
+                <com.bbva.intranet.behappy.components.FaceTextView
+                    android:id="@+id/tv_onboarding_mesage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Text.Size14"
+                    android:text="@string/label_onboarding1"
+                    android:textColor="@color/black600"
+                    android:layout_marginTop="10dp"/>
+                <RelativeLayout
+                    android:id="@+id/container_onboarding_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:id="@+id/tv_onboarding_continue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Size18"
+                        android:text="@string/label_continue"
+                        android:textColor="@color/aqua"
+                        android:layout_marginBottom="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:gravity="center">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/gray500"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

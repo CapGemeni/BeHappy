@@ -1,0 +1,246 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.recompensas.ListaDistincionesFragment">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+                   <!--contenido-->
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/persona1"/>
+
+                        <LinearLayout
+                            android:layout_width="146dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="30dp"
+                                android:text="Leonardo Vera"
+                                android:textColor="@color/black600"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="95dp"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/btn_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="36dp"
+                                android:layout_marginTop="22dp"
+                                android:background="@color/white"
+                                android:text="Enviar"
+                                android:textColor="@color/blue"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                  <!--persona2-->
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content">
+                      <LinearLayout
+                          android:layout_width="340dp"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                          <ImageView
+                              android:layout_width="50dp"
+                              android:layout_height="50dp"
+                              android:layout_marginTop="20dp"
+                              android:layout_marginLeft="15dp"
+                              android:background="@drawable/persona2"/>
+
+                          <LinearLayout
+                              android:layout_width="145dp"
+                              android:layout_height="70dp"
+                              android:orientation="horizontal">
+
+                              <TextView
+                                  android:layout_width="130dp"
+                                  android:layout_height="80dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginTop="30dp"
+                                  android:text="Fernanda Cid"
+                                  android:textColor="@color/black600"
+                                  android:textSize="14dp" />
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:layout_width="95dp"
+                              android:layout_height="wrap_content">
+
+                              <Button
+                                  android:id="@+id/btn_2"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="36dp"
+                                  android:layout_marginTop="22dp"
+                                  android:background="@color/white"
+                                  android:text="Enviar"
+                                  android:textColor="@color/blue"
+                                  android:textSize="16dp" />
+                          </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                  <!--persona3-->
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content">
+                      <LinearLayout
+                          android:layout_width="340dp"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                          <ImageView
+                              android:layout_width="50dp"
+                              android:layout_height="50dp"
+                              android:layout_marginTop="20dp"
+                              android:layout_marginLeft="15dp"
+                              android:background="@drawable/persona3"/>
+
+                          <LinearLayout
+                              android:layout_width="145dp"
+                              android:layout_height="70dp"
+                              android:orientation="horizontal">
+
+                              <TextView
+                                  android:layout_width="130dp"
+                                  android:layout_height="80dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginTop="30dp"
+                                  android:text="Erik Trejo"
+                                  android:textColor="@color/black600"
+                                  android:textSize="14dp" />
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:layout_width="95dp"
+                              android:layout_height="wrap_content">
+
+                              <Button
+                                  android:id="@+id/btn_3"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="36dp"
+                                  android:layout_marginTop="22dp"
+                                  android:textSize="16dp"
+                                  android:background="@color/white"
+                                  android:text="Enviar"
+                                  android:textColor="@color/blue" />
+                          </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                  <!--persona4-->
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content">
+                      <LinearLayout
+                          android:layout_width="340dp"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                          <ImageView
+                              android:layout_width="50dp"
+                              android:layout_height="50dp"
+                              android:layout_marginTop="20dp"
+                              android:layout_marginLeft="15dp"
+                              android:background="@drawable/persona4"/>
+
+                          <LinearLayout
+                              android:layout_width="146dp"
+                              android:layout_height="70dp"
+                              android:orientation="horizontal">
+
+                              <TextView
+                                  android:layout_width="130dp"
+                                  android:layout_height="80dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginTop="30dp"
+                                  android:text="Daniela de la Rosa"
+                                  android:textColor="@color/black600"
+                                  android:textSize="14dp" />
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:layout_width="95dp"
+                              android:layout_height="wrap_content">
+
+                              <Button
+                                  android:id="@+id/btn_4"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="36dp"
+                                  android:layout_marginTop="22dp"
+                                  android:background="@color/white"
+                                  android:text="Enviar"
+                                  android:textColor="@color/blue"
+                                  android:textSize="16dp" />
+                          </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                  <!--persona5-->
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content">
+                      <LinearLayout
+                          android:layout_width="340dp"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                          <ImageView
+                              android:layout_width="50dp"
+                              android:layout_height="50dp"
+                              android:layout_marginTop="20dp"
+                              android:layout_marginLeft="15dp"
+                              android:background="@drawable/persona5"/>
+
+                          <LinearLayout
+                              android:layout_width="146dp"
+                              android:layout_height="70dp"
+                              android:orientation="horizontal">
+
+                              <TextView
+                                  android:layout_width="130dp"
+                                  android:layout_height="80dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginTop="30dp"
+                                  android:text="Josefina Farias"
+                                  android:textColor="@color/black600"
+                                  android:textSize="14dp" />
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:layout_width="95dp"
+                              android:layout_height="wrap_content">
+
+                              <Button
+                                  android:id="@+id/btn_5"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="36dp"
+                                  android:layout_marginTop="22dp"
+                                  android:background="@color/white"
+                                  android:text="Enviar"
+                                  android:textColor="@color/blue"
+                                  android:textSize="16dp" />
+                          </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                  <!--persona2-->
+              </LinearLayout>
+          </ScrollView>
+
+</layout>

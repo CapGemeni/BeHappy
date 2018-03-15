@@ -1,0 +1,149 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.Modificaciones.BuscadorFragment">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+                   <!--contenido-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="200dp"
+                      android:background="#ab94d9"
+                      android:orientation="vertical">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+
+                          <ImageView
+                              android:layout_width="155dp"
+                              android:layout_height="match_parent"
+                              android:background="@drawable/estrella_distinciones1" />
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+                              <TextView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginTop="10dp"
+                                  android:text="MIS DISTINCIONES"
+                                  android:textColor="@color/white"
+                                  android:textSize="16dp" />
+
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="55dp"
+                                  android:orientation="horizontal">
+
+                                  <Button
+                                      android:id="@+id/boton_redondo"
+                                      android:layout_width="40dp"
+                                      android:layout_height="40dp"
+                                      android:layout_marginLeft="10dp"
+                                      android:layout_marginTop="5dp"
+                                      android:background="@drawable/boton_redondo"
+                                      android:text="2"
+                                      android:textColor="@color/white"
+                                      android:textSize="20dp" />
+
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="5dp"
+                                      android:text="Cliente en centro"
+                                      android:textColor="@color/white"
+                                      android:textSize="13dp" />
+                              </LinearLayout>
+                              <!--circulo2-->
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="55dp"
+                                  android:orientation="horizontal">
+
+                                  <Button
+                                      android:id="@+id/boton_redondo2"
+                                      android:layout_width="40dp"
+                                      android:layout_height="40dp"
+                                      android:layout_marginLeft="10dp"
+                                      android:layout_marginTop="5dp"
+                                      android:background="@drawable/boton_redondo2"
+                                      android:text="1"
+                                      android:textColor="@color/white"
+                                      android:textSize="20dp" />
+
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="5dp"
+                                      android:text="Pensar en grande"
+                                      android:textColor="@color/white"
+                                      android:textSize="13dp" />
+                              </LinearLayout>
+                              <!--boton3-->
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="55dp"
+                                  android:orientation="horizontal">
+
+                                  <Button
+                                      android:id="@+id/boton_redondo3"
+                                      android:layout_width="40dp"
+                                      android:layout_height="40dp"
+                                      android:layout_marginLeft="10dp"
+                                      android:layout_marginTop="5dp"
+                                      android:background="@drawable/boton_redondo3"
+                                      android:text="3"
+                                      android:textColor="@color/white"
+                                      android:textSize="20dp" />
+
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="5dp"
+                                      android:text="Trabajo en grupo"
+                                      android:textColor="@color/white"
+                                      android:textSize="13dp" />
+                              </LinearLayout>
+                          </LinearLayout>
+                      </LinearLayout>
+                  </LinearLayout>
+                    <!--buscador-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <ImageView
+                          android:layout_width="300dp"
+                          android:layout_height="match_parent"
+                          android:layout_marginLeft="8dp"
+                          android:background="@drawable/buscador2" />
+                  </LinearLayout>
+
+                     <!--fragment-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+                      <fragment
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:name="com.bbva.intranet.behappy.modules.Modificaciones.ListaBuscadorFragment"
+                          android:id="@+id/buscar1fragment"
+                          tools:layout="@layout/fragment_lista_buscador"/>
+
+                  </LinearLayout>
+
+              </LinearLayout>
+          </ScrollView>
+</layout>

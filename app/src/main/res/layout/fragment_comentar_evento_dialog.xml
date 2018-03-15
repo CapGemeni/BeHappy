@@ -1,0 +1,129 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.eventos.ComentarEventoDialog">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_op60">
+
+        <LinearLayout
+            android:id="@+id/container_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bacground_dialog_message"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/btn_cerrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/ic_close"
+                    android:layout_margin="@dimen/screen_margin"
+                    android:contentDescription="@string/label_close" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/screen_margin">
+
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:id="@+id/tv_status"
+                        style="@style/Text.Size24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="Comentarios o sugerencias"
+                        android:textAlignment="center"/>
+
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:id="@+id/tv_status_desc"
+                        style="@style/Text.Size16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/screen_margin"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@string/label_close" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.bbva.intranet.behappy.components.FaceTextView
+                    style="@style/Text.Size18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text=""
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="83dp"
+                    android:orientation="horizontal"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edit_enviar_sugerencia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Cuéntanos más" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_enviar_comentario"
+                            android:layout_width="35sp"
+                            android:layout_height="35sp"
+                            android:background="@drawable/img_enviar_comentario"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

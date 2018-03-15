@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BeHappyV2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_onboarding1">Exprésanos tu estado de ánimo, recibe nuestros mensajes de aliento para mejorar tu día.</string>
+    <string name="label_onboardingTitle1">Bhappy</string>
+    <string name="label_onboardingTitle2">Animómetro</string>
+    <string name="label_onboarding2">Diviertete seleccionando cómo te sientes hoy y gana puntos.</string>
+    <string name="label_onboardingTitle3">Eventos</string>
+    <string name="label_onboarding3">Descubre y participa en los eventos creados para ti e interactúa con la comunidad.</string>
+    <string name="label_onboardingTitle4">Suma puntos</string>
+    <string name="label_onboarding4">Cuando recomiendas los eventos, ganas puntos.</string>
+    <string name="label_continue">Continuar</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="label_version">Versión</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="bancomer_apps">Ir a Bancomer apps</string>
+    <string name="ver_onboarding">Ver Onboarding</string>
+    <string name="salir">Salir</string>
+    <string name="menu_animometro">Animómetro</string>
+    <string name="menu_eventos">Eventos</string>
+    <string name="menu_recompensas">Mis recompensas</string>
+    <string name="menu_detalles">Detalles</string>
+    <string name="label_animometro_como_tesientes">¿Cómo te sientes hoy?</string>
+    <string name="label_animometro_instrucciones">Identifica tu estado de ánimo tocando las caritas o deslizando hacia los lados</string>
+    <string name="label_er_estadisticas">Ver estadísticas</string>
+    <string name="label_animometro_super_feliz">Super Feliz</string>
+    <string name="label_animometro_meh">Meh</string>
+    <string name="label_animometro_enojado">Enojado</string>
+    <string name="label_animometro_bien">Bien</string>
+    <string name="label_animometro_triste">Triste</string>
+    <string name="label_close">Close</string>
+    <string name="label_animometro_meh_desc">Sientes que el vaso está medio lleno o medio vacío, Aprovecha tu juicio neutral.</string>
+    <string name="label_animometro_enojado_desc">Hoy tienes esa furia para enfocarte en lo que pedías y necesitabas, enhorabuena.</string>
+    <string name="label_animometro_super_feliz_desc">Tu estado actual contagia a las demás personas y a ti mismo de una alegria general.</string>
+    <string name="label_animometro_bien_desc">Te sientes en forma y con buen ánimo para que este día saque lo mejor de ti.</string>
+    <string name="label_animometro_triste_desc">Tu inspiración melancólica te permite renovarte y ver las cosas diferentes.</string>
+    <string name="label_cuentanos_mas">Cuéntanos más</string>
+    <string name="label_enviar">Enviar</string>
+    <string name="label_ver_estadisticas">Ver estadísticas</string>
+    <string name="label_puntos_ganados">¡Has ganado 5 PTS!</string>
+    <string name="label_titulo_estadistica">Estadística</string>
+    <string name="clean_credentials">clean</string>
+    <string name="request_resource">request</string>
+</resources>

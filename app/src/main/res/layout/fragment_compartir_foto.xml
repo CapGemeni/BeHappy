@@ -1,0 +1,132 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.eventos.CompartirFotoFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="56dp"
+            android:layout_height="270dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:layout_height="42dp"
+                android:src="@drawable/ico_camera" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:orientation="vertical">
+            <!--Contenedor texto Comparte tus fotos-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comparte tus fotos del evento"
+                    style="@style/Text.Size16"
+                    android:textColor="@color/gray500"
+                    android:layout_marginTop="6dp"
+                    />
+            </LinearLayout>
+            <!--/Contenedor Botones Imagenes-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_act_camara"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn_act_cam"
+                        android:visibility="visible"/>
+                    <Button
+                        android:id="@+id/bnt_geleria_new"
+                        android:layout_width="71dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria_new"
+                        android:visibility="gone"/>
+
+                    <Button
+                        android:id="@+id/btn_galeria_1"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria1" />
+                    <Button
+                        android:id="@+id/btn_galeria_2"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria2" />
+                    <Button
+                        android:id="@+id/btn_galeria_3"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <Button
+                        android:id="@+id/btn_galeria_4"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria4" />
+                    <Button
+                        android:id="@+id/btn_galeria_5"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria45png" />
+                    <Button
+                        android:id="@+id/btn_galeria_6"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria5" />
+                    <Button
+                        android:id="@+id/btn_galeria_7"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_galeria6png" />
+                </LinearLayout>
+            </LinearLayout>
+            <!---->
+            <!--Contenedor boton galeria-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_ver_galeria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Ver galería completa (160)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/bluish_two" />
+            </LinearLayout>
+            <!--/Contenedor boton galeria-->
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeHappy.iml" filepath="$PROJECT_DIR$/BeHappy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bbvaOAuthSdk-v3.0.3/bbvaOAuthSdk-v3.0.3.iml" filepath="$PROJECT_DIR$/bbvaOAuthSdk-v3.0.3/bbvaOAuthSdk-v3.0.3.iml" />
+    </modules>
+  </component>
+</project>

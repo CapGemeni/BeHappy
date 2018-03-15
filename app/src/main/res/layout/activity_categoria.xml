@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.Modificaciones.CategoriaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_op60">
+
+        <LinearLayout
+            android:id="@+id/container_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:background="#ab94d9"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+                <!--contenido-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/btn_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_close"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="@string/label_close"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/estrella_distinciones2" />
+                </LinearLayout>
+
+            </RelativeLayout>
+            <!--segunda parte-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@mipmap/bg_animometro_desc_white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="67dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="236dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginLeft="10dp"
+                           android:layout_marginTop="25dp"
+                            android:text="Selecciona la categoría que deseas reconocer"
+                            android:textColor="@color/black600"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                        <!--texto2-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="30dp">
+                            <Button
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="80dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/boton_redondo4" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="25dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="9dp"
+                                android:text="Cliente en centro"
+                                android:textColor="@color/black600"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                      <!--texto3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="30dp">
+                        <Button
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/boton_redondo5" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="8dp"
+                            android:text="Pensar en grande"
+                            android:textColor="@color/black600"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                 <!--texto4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="30dp">
+                        <Button
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/boton_redondo5" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="8dp"
+                            android:text="Trabajo en grupo"
+                            android:textColor="@color/black600"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!--imagen-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/texto1_aqua" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--linearfinales-->
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

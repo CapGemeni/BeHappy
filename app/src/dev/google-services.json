@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "964999643296",
+    "firebase_url": "https://au-bbva-bancomer-bhappy.firebaseio.com",
+    "project_id": "au-bbva-bancomer-bhappy",
+    "storage_bucket": "au-bbva-bancomer-bhappy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964999643296:android:5f10809dc1c8023e",
+        "android_client_info": {
+          "package_name": "com.bbva.intranet.behappy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964999643296-33pc6pujqir6evealtc6lgjbod0jbg3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bbva.intranet.behappy",
+            "certificate_hash": "b9cb5fa4b44c245eae4e19cf027696cb06628fe1"
+          }
+        },
+        {
+          "client_id": "964999643296-levau6uokbq61b75sjkdr364qv1n103j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWpaMBH4utwp0HSmBtr9MycuMZ5a7-5rg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964999643296-e10bpo850a8e1ac92dmj6m3ikqkp4b3i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bancomer.bbva.BHappy"
+              }
+            },
+            {
+              "client_id": "964999643296-levau6uokbq61b75sjkdr364qv1n103j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

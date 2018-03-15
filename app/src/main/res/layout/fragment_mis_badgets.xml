@@ -1,0 +1,273 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.recompensas.ListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_psc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Mis Badgets"
+                    style="@style/Text.Size20"
+                    android:textColor="@color/purple"
+                    android:gravity="left"
+                    android:padding="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ToggleButton
+                    android:id="@+id/toggleBadgets"
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/togglebadgets"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    style="@style/Text.Size22"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:orientation="vertical"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/image_trabajo_grupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_trabajo_en_grupo"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_badget_1"
+                    style="@style/Text.Size14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:gravity="left"
+                    android:text="Trabajo en grupo"
+                    android:textColor="@color/black600" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pts1"
+                    style="@style/Text.Size22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="7"
+                    android:gravity="right"
+                    android:textColor="@color/purple" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--SEGUNDO LUGAR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lugar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    style="@style/Text.Size22"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:orientation="vertical"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/image_cliente_centro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_cliente_centro" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_badget_2"
+                    style="@style/Text.Size14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:gravity="left"
+                    android:text="Cliente en centro"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pts2"
+                    style="@style/Text.Size22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="110"
+                    android:textColor="@color/purple"
+                    android:gravity="right"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/SEGUNDO LUGAR-->
+        <!--TERCER LUGAR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lugar3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    style="@style/Text.Size28"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:orientation="vertical"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/image_pensar_grande"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_pensar_grande" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_badget_3"
+                    style="@style/Text.Size14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:gravity="left"
+                    android:text="Pensar en grande" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pts3"
+                    style="@style/Text.Size22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="95"
+                    android:textColor="@color/purple" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/TERCER LUGAR-->
+
+
+
+    </LinearLayout><!--PARENT CONTAINER-->
+
+
+</layout>

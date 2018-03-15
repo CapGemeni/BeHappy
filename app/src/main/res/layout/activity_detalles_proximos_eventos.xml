@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.eventos.DetallesProximosEventosActivity">
+          <!--activitidetallesproximos-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+              <include
+                  android:id="@+id/view_toolbar"
+                  layout="@layout/view_toolbar">
+              </include>
+
+              <LinearLayout
+                  android:layout_width="362dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:background="@color/orange">
+
+                  <TextView
+                      android:layout_width="333dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="Viernes Botanero"
+                      android:textColor="@color/white"
+                      android:textSize="22dp" />
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="362dp"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  >
+                  <ImageView
+                      android:layout_width="362dp"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/viernesbotanero"/>
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="350dp"
+                  android:layout_height="67dp"
+                  android:orientation="horizontal">
+
+                  <LinearLayout
+                      android:layout_width="80dp"
+                      android:layout_height="50dp"
+                      android:orientation="horizontal">
+
+                      <ImageView
+                          android:layout_width="20dp"
+                          android:layout_height="20dp"
+                          android:layout_gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginLeft="20dp"
+                          android:background="@drawable/ico_redes" />
+
+                      <TextView
+                          android:layout_width="30dp"
+                          android:layout_height="30dp"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="8dp"
+                          android:text="123"
+                          android:textSize="16dp" />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="71dp"
+                      android:layout_height="50dp">
+
+                      <ImageView
+                          android:layout_width="20dp"
+                          android:layout_height="20dp"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@drawable/ico_like" />
+
+                      <TextView
+                          android:layout_width="30dp"
+                          android:layout_height="30dp"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="8dp"
+                          android:text="442"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="66dp"
+                      android:layout_height="50dp">
+
+                      <ImageView
+                          android:layout_width="20dp"
+                          android:layout_height="20dp"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@drawable/ico_amigos" />
+
+                      <TextView
+                          android:layout_width="30dp"
+                          android:layout_height="30dp"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="8dp"
+                          android:text="164"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="130dp"
+                      android:layout_height="50dp">
+
+                      <Button
+                          android:id="@+id/boton_checkin"
+                          android:layout_width="97dp"
+                          android:layout_height="34dp"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@drawable/btn_checkin" />
+                  </LinearLayout>
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="355dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content">
+
+                      <ImageView
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_marginLeft="20dp"
+                          android:background="@drawable/persona6" />
+
+                      <TextView
+                          android:layout_width="150dp"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="18dp"
+                          android:text="Evento creado por"
+                          android:textColor="@color/gray500"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="346dp"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+
+                          android:layout_width="250dp"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="40dp"
+                          android:text="DIRECIÓN DE DESARROLLO"
+                          android:textColor="@color/black_op60"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+
+                          android:layout_width="220dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="90dp"
+                          android:text="Gisela Martínez Fernández"
+                          android:textColor="@color/black600"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="73dp"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:layout_width="222dp"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="25dp"
+                          android:layout_marginTop="10dp"
+                          android:text="VIERNES 09 MARZO 2018 11:59 HRS "
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+                      <ImageView
+                          android:layout_width="20dp"
+                          android:layout_height="20dp"
+                          android:layout_marginLeft="90dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@drawable/ico_ubicacion" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="5dp"
+                          android:text="Hotel Camino Real Polanco"
+                          android:textSize="14dp" />
+                  </LinearLayout>
+              </LinearLayout>
+                <!--seccion 2-->
+
+              <LinearLayout
+                  android:layout_width="355dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content">
+
+                      <ImageView
+                          android:layout_width="30dp"
+                          android:layout_height="35dp"
+                          android:layout_marginLeft="25dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@drawable/descripcion" />
+
+                      <TextView
+                          android:layout_width="203dp"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="35dp"
+                          android:layout_marginTop="5dp"
+                          android:text="Descripción del evento"
+                          android:textColor="@color/gray500"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="93dp"
+                      android:orientation="vertical">
+
+                      <TextView
+
+                          android:layout_width="243dp"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="35dp"
+                          android:text="Disfruta en compañia de todo tu equipo de trabajo de la convivencia de varias áreas en el tradicional viernes botanero."
+                          android:textColor="@color/black_op60"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="350dp"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+
+                          android:layout_width="220dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="90dp"
+                          android:text="Leer más"
+                          android:textColor="#004481"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+              </LinearLayout>
+                <!--iconos-->
+
+              <LinearLayout
+                  android:layout_width="350dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10dp">
+
+                  <ImageView
+                      android:layout_width="15dp"
+                      android:layout_height="15dp"
+                      android:layout_marginLeft="20dp"
+                      android:layout_marginTop="2dp"
+                      android:background="@drawable/ico_redes" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginLeft="5dp"
+                      android:text="compartir"
+                      android:textColor="@color/gray500"
+                      android:textSize="14dp" />
+
+                  <LinearLayout
+                      android:layout_width="120dp"
+                      android:layout_height="wrap_content">
+
+                      <ImageView
+                          android:layout_width="15dp"
+                          android:layout_height="15dp"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="2dp"
+                          android:background="@drawable/ico_like" />
+
+                      <TextView
+                          android:layout_width="90dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="5dp"
+                          android:text="Recomendado"
+                          android:textColor="#004481"
+                          android:textSize="14dp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="105dp"
+                      android:layout_height="wrap_content">
+
+                      <ImageView
+                          android:layout_width="15dp"
+                          android:layout_height="15dp"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="2dp"
+                          android:background="@drawable/registrado" />
+
+                      <TextView
+                          android:layout_width="70dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="5dp"
+                          android:text="Registrado"
+                          android:textColor="#004481"
+                          android:textSize="14dp" />
+                  </LinearLayout>
+              </LinearLayout>
+              <!--linear final-->
+          </LinearLayout>
+    </ScrollView>
+</layout>

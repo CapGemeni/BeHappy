@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Button" />
+
+    <style name="Text" parent="TextAppearance.AppCompat" />
+
+
+    <style name="Text.Size30" parent="Text">
+        <item name="android:textSize">30sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size28" parent="Text">
+        <item name="android:textSize">28sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size26" parent="Text">
+        <item name="android:textSize">26sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size24" parent="Text">
+        <item name="android:textSize">24sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size22" parent="Text">
+        <item name="android:textSize">22sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size20" parent="Text">
+        <item name="android:textSize">20sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size18" parent="Text">
+        <item name="android:textSize">18sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size16" parent="Text">
+        <item name="android:textSize">16sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size14" parent="Text">
+        <item name="android:textSize">14sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size12" parent="Text">
+        <item name="android:textSize">12sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size10" parent="Text">
+        <item name="android:textSize">10sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+    <style name="Text.Size8" parent="Text">
+        <item name="android:textSize">8sp</item>
+        <item name="typeface">Lato-Regular.ttf</item>
+    </style>
+
+    <style name="EditText" />
+
+
+    <style name="EditText.White">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="android:textColorHighlight">@color/black600</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="EditText.Gray">
+        <item name="colorAccent">@android:color/darker_gray</item>
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:textColorHighlight">@color/black600</item>
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="Text.lightError" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/black600</item>
+    </style>
+
+    <style name="Text.Gray" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/gray500</item>
+    </style>
+
+    <style name="Button.Solid">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/Text.Size24</item>
+    </style>
+    <style name="Button.Yellow" parent="Button.Solid">
+        <item name="android:background">@drawable/btn_solid_yellow</item>
+    </style>
+    <style name="Button.Aqua" parent="Button.Solid">
+        <item name="android:background">@drawable/btn_solid_aqua</item>
+    </style>
+    <style name="Button.Stroke">
+        <item name="android:textColor">@color/aqua</item>
+        <item name="android:textAppearance">@style/Text.Size18</item>
+        <item name="android:background">@drawable/btn_stroke</item>
+    </style>
+
+    <style name="Button.Detalle" parent="Button.Solid">
+        <item name="android:background">@drawable/btn_detalle</item>
+        <item name="android:textAppearance">@style/Text.Size12</item>
+    </style>
+
+</resources>

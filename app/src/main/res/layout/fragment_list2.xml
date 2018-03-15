@@ -1,0 +1,530 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.recompensas.List2Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <!--ENCABEZADO-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textdireccion"
+                    style="@style/Text.Size20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="left"
+                    android:paddingLeft="@dimen/screen_margin"
+                    android:text="Dirección"
+                    android:textColor="@color/purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagedimrojo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dimrojo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dimazul" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/trofeo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_total"
+                    style="@style/Text.Size20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL"
+                    android:layout_marginTop="18dp"
+                    android:textColor="@color/purple"
+                    android:gravity="left"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/ENCABEZADO-->
+
+        <!--PRIMER AREA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Textaerea1"
+                    style="@style/Text.Size16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="TI"
+                    android:paddingLeft="@dimen/screen_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/Text.Size26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="15"
+                    android:textColor="@color/purple"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/PRIMER AREA-->
+
+
+        <!--SEGUNDA AREA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Textaerea2"
+                    style="@style/Text.Size16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="Negocios"
+                    android:paddingLeft="@dimen/screen_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal1area2"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal2area2"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textcal3area2"
+                    style="@style/Text.Size26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_cal_total_area2"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="@color/purple"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/SEGUNDO AREA-->
+        <!--TERCER AREA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Textaerea3"
+                    style="@style/Text.Size16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="Operaciones"
+                    android:paddingLeft="@dimen/screen_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal1area3"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal2area3"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textcal3area3"
+                    style="@style/Text.Size26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_cal_total_area3"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="@color/purple"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/TERCER AREA-->
+        <!--CUAETA AREA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Textaerea4"
+                    style="@style/Text.Size16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="Comercial"
+                    android:paddingLeft="@dimen/screen_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal1area4"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal2area4"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textcal3area4"
+                    style="@style/Text.Size26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_cal_total_area4"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@color/purple"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/CUARTA AREA-->
+        <!--QUINTA AREA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Textaerea5"
+                    style="@style/Text.Size16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="Operaciones Nacionales"
+                    android:paddingLeft="@dimen/screen_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal1area5"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textcal2area5"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textcal3area5"
+                    style="@style/Text.Size26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_cal_total_area5"
+                    style="@style/Text.Size26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/purple"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--/QUINTA AREA-->
+
+
+    </LinearLayout><!--PARENT CONTAINER-->
+
+
+</layout>

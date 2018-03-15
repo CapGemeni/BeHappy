@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/navy</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="navy">#072146</color>
+    <color name="core_blue">#004481</color>
+    <color name="medium_blue">#2A86CA</color>
+    <color name="light_blue">#5BBEFF</color>
+    <color name="aqua">#2dcccd</color>
+    <color name="red">#da3851</color>
+    <color name="orange">#f7893b</color>
+    <color name="yellow">#f8cd51</color>
+    <color name="gold">#d8be75</color>
+    <color name="coral">#f35e61</color>
+    <color name="green">#48ae64</color>
+    <color name="pink">#f78be8</color>
+    <color name="purple">#8f7ae5</color>
+    <color name="black600">#121212</color>
+    <color name="gray500">#666666</color>
+    <color name="gray400">#BDBDBD</color>
+    <color name="gray300">#D3D3D3</color>
+    <color name="gray200">#E9E9E9</color>
+    <color name="gray100">#F4F4F4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_op60">#99000000</color>
+
+</resources>

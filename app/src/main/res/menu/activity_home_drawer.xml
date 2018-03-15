@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@mipmap/ic_notification"
+            android:title="@string/notificaciones" />
+        <item
+            android:id="@+id/nav_goto_apps"
+            android:icon="@mipmap/ic_go_to"
+            android:title="@string/bancomer_apps" />
+        <item
+            android:id="@+id/nav_onboarding"
+            android:icon="@mipmap/ic_info"
+            android:title="@string/ver_onboarding" />
+    </group>
+
+    <item
+        android:title=""
+        android:checkable="false"
+        android:enabled="false" />
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@mipmap/ic_exit"
+                android:title="@string/salir" />
+        </menu>
+    </item>
+
+</menu>

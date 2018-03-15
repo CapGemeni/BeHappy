@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.bbva.intranet.behappy.modules.animometro.CuentanosMasActivity">
+
+        <include
+            android:id="@+id/view_toolbar"
+            layout="@layout/view_toolbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/screen_margin">
+
+                <!-- header view -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:src="@mipmap/ic_animometro_bien"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical">
+                        <com.bbva.intranet.behappy.components.FaceTextView
+                            android:id="@+id/tv_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/Text.Size24"
+                            android:textColor="@color/blue"
+                            android:text="Estoy Bien"/>
+                        <com.bbva.intranet.behappy.components.FaceTextView
+                            android:id="@+id/tv_fecha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            style="@style/Text.Size20"
+                            android:textColor="@color/gray400"
+                            android:text="Miercoles 24 Octubre"/>
+                        <com.bbva.intranet.behappy.components.FaceTextView
+                            android:id="@+id/tv_actualizar_estado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            style="@style/Text.Size16"
+                            android:textColor="@color/aqua"
+                            android:text="Actualizar mi estado"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.bbva.intranet.behappy.components.FaceTextView
+                    android:id="@+id/tv_status_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Text.Size18"
+                    android:textColor="@color/black600"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="Eres una persona única e irrepetible. Asume esta diferencia como una esencia que te hace brillar. "/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_margin"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/ic_abeja"/>
+
+                <Button
+                    android:id="@+id/btn_cuentanos_mas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_margin"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/label_cuentanos_mas"
+                    style="@style/Button.Yellow" />
+
+
+                <LinearLayout
+                    android:id="@+id/container_cuentanos_mas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Size18"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Cuéntanos"/>
+
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        style="@style/Text.Size14"
+                        android:textColor="@color/colorPrimary"
+                        android:text="¿Cómo te sientes? Puedes seleccionar el tema sobre el que desees escribir."/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:gravity="end">
+                        <Button
+                            android:id="@+id/btn_tema1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Laboral"
+                            style="@style/Button.Stroke"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"/>
+                        <Button
+                            android:id="@+id/btn_tema2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Personal"
+                            style="@style/Button.Stroke"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:gravity="start">
+                        <Button
+                            android:id="@+id/btn_tema3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Éxitos"
+                            style="@style/Button.Stroke"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"/>
+                        <Button
+                            android:id="@+id/btn_tema4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/Button.Stroke"
+                            android:text="Compromisos"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="end">
+                        <Button
+                            android:id="@+id/btn_tema5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aspiraciones"
+                            style="@style/Button.Stroke"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"/>
+                        <Button
+                            android:id="@+id/btn_tema6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/Button.Stroke"
+                            android:text="Relaciones"/>
+                    </LinearLayout>
+
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Comentario"
+                        android:layout_marginTop="20dp"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp" />
+
+                    <Button
+                        android:id="@+id/btn_continue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_enviar"
+                        style="@style/Button.Aqua"
+                        android:layout_marginTop="20dp"/>
+
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_ver_estadisticas"
+                        style="@style/Text.Size18"
+                        android:textColor="@color/aqua"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="center_horizontal"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

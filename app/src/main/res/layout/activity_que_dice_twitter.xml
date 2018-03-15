@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.eventos.QueDiceTwitterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/view_toolbar"
+            layout="@layout/view_toolbar" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:background="@color/white">
+                <!--Contenido-->
+                <!--Contededor primer publicacion-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!--Contenedor Imagen usuario-->
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_usuario_twitter_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="54dp"
+                            android:gravity="center"
+                            android:src="@drawable/user_twitter_1" />
+                    </LinearLayout>
+                    <!--/Contenedor Imagen usuario-->
+                    <!--Contenedor usuario/publicacion-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/text_nombre_usuario_twitter"
+                                style="@style/Text.Size20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Laura"
+                                android:textColor="@color/black600" />
+                            <TextView
+                                android:id="@+id/text_nickname_usuario_twitter_1"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:text=".@laura_rios"
+                                android:textColor="@color/gray400" />
+                            <TextView
+                                android:id="@+id/text_dias_publicacion_twitter_1"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="1d"
+                                android:textColor="@color/gray400" />
+                        </LinearLayout>
+                        <!--Publicacion-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_publicacion_twitter"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="#bhappyhoy acaba de comenzar"
+                                style="@style/Text.Size12"
+                                android:textColor="@color/black600"/>
+                        </LinearLayout>
+                        <!--/Publicacion-->
+                    </LinearLayout>
+                    <!--Contenedor usuario/publicacion-->
+                </LinearLayout>
+                <!--/Contededor primer publicacion-->
+                <!--Contededor segunda publicacion-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Contenedor Imagen usuario-->
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/imagen_usuario_twitter_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="54dp"
+                            android:gravity="center"
+                            android:src="@drawable/user_twitter_2" />
+                    </LinearLayout>
+                    <!--/Contenedor Imagen usuario-->
+                    <!--Contenedor usuario/publicacion-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/text_nombre_usuario_twitter_2"
+                                style="@style/Text.Size20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text="Mladen"
+                                android:textColor="@color/black600" />
+                            <TextView
+                                android:id="@+id/text_nickname_usuario_twitter_2"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:text=".@imldn"
+                                android:textColor="@color/gray400" />
+                            <TextView
+                                android:id="@+id/text_dias_publicacion_twitter_2"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="5d"
+                                android:textColor="@color/gray400" />
+                        </LinearLayout>
+                        <!--Publicacion-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_publicacion_twitter_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Mucho que aprender"
+                                style="@style/Text.Size12"
+                                android:textColor="@color/black600"/>
+                        </LinearLayout>
+                        <!--/Publicacion-->
+                    </LinearLayout>
+                    <!--Contenedor usuario/publicacion-->
+                </LinearLayout>
+                <!--/Contededor segunda publicacion-->
+                <!--Contededor terceera publicacion-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Contenedor Imagen usuario-->
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/imagen_usuario_twitter_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="54dp"
+                            android:gravity="center"
+                            android:src="@drawable/user_twitter_3" />
+                    </LinearLayout>
+                    <!--/Contenedor Imagen usuario-->
+                    <!--Contenedor usuario/publicacion-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/text_nombre_usuario_twitter_3"
+                                style="@style/Text.Size20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text="Samuel Martínez"
+                                android:textColor="@color/black600" />
+                            <TextView
+                                android:id="@+id/text_nickname_usuario_twitter_3"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:text=".@Sam…"
+                                android:textColor="@color/gray400" />
+                            <TextView
+                                android:id="@+id/text_dias_publicacion_twitter_3"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="5d"
+                                android:textColor="@color/gray400" />
+                        </LinearLayout>
+                        <!--Publicacion-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_publicacion_twitter_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Gracias por acompañarnos esta semana en el la Premiación #bhappyhoy"
+                                style="@style/Text.Size12"
+                                android:textColor="@color/black600"/>
+                        </LinearLayout>
+                        <!--/Publicacion-->
+                    </LinearLayout>
+                    <!--Contenedor usuario/publicacion-->
+                </LinearLayout>
+                <!--/Contededor tercera publicacion-->
+                <!--Contededor cuarta publicacion-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="4dp">
+                    <!--Contenedor Imagen usuario-->
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/imagen_usuario_twitter_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="54dp"
+                            android:gravity="center"
+                            android:src="@drawable/user_twitter_2" />
+                    </LinearLayout>
+                    <!--/Contenedor Imagen usuario-->
+                    <!--Contenedor usuario/publicacion-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/text_nombre_usuario_twitter_4"
+                                style="@style/Text.Size20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text="Mladen"
+                                android:textColor="@color/black600" />
+                            <TextView
+                                android:id="@+id/text_nickname_usuario_twitter_4"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:text=".@imldn"
+                                android:textColor="@color/gray400" />
+                            <TextView
+                                android:id="@+id/text_dias_publicacion_twitter_4"
+                                style="@style/Text.Size16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="31.05.2017"
+                                android:textColor="@color/gray400" />
+                        </LinearLayout>
+                        <!--Publicacion-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_publicacion_twitter_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Viernes Botanero"
+                                style="@style/Text.Size12"
+                                android:textColor="@color/black600"/>
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="34dp"
+                                android:src="@drawable/emoji_fiesta"/>
+                        </LinearLayout>
+                        <!--Contenedor Imagen Publicacion-->
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="90dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView19"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/pub_viernes_botanero" />
+                        </LinearLayout>
+                        <!--/Contenedor Imagen Publicacion-->
+                        <!--/Publicacion-->
+                    </LinearLayout>
+                    <!--Contenedor usuario/publicacion-->
+                </LinearLayout>
+                <!--/Contededor cuarta publicacion-->
+                <!--/Contenido-->
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</layout>

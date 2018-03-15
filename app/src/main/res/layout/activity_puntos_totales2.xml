@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.recompensas.PuntosTotales2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_op60">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+                <!--contenido-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow">
+                <ImageView
+                    android:id="@+id/btn_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/label_close"
+                    android:src="@mipmap/ic_close" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/noventaynueve">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="59dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Sigue acumulando puntos"
+                    android:textColor="@color/black600"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/boton_ver_mis_logros"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/boton_ver_mis_logros"
+                android:gravity="center"
+                android:text="Ver mis logros"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <!--linearfinales-->
+    </LinearLayout>
+</layout>

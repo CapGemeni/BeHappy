@@ -1,0 +1,192 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.historial_eventos.RecomendEventoDialog">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_op60">
+
+        <LinearLayout
+            android:id="@+id/container_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/core_blue"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/boton_cerrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/ic_close"
+                    android:layout_margin="@dimen/screen_margin"
+                    android:contentDescription="@string/label_close" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/boton_cerrar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/screen_margin">
+
+                    <com.bbva.intranet.behappy.components.FaceTextView
+                        android:id="@+id/tv_valorar"
+                        style="@style/Text.Size24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="¿Qué tanto recomendarías nuestro evento a un amigo a un colega?"
+                        android:gravity="center"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/boton_1"
+                        android:layout_width="49dp"
+                        android:layout_height="49dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/ic_flecha_verde"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@string/label_close" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@mipmap/bg_animometro_desc_white"
+                android:gravity="center"
+                android:orientation="vertical">
+<!---->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="3dp">
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/btn_no_haria"
+                                android:layout_width="55dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/ic_no_lo_haria"
+                                android:layout_gravity="center"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="No lo haría"
+                                android:gravity="center"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="81dp"
+                            android:orientation="vertical">
+                            <Button
+                                android:id="@+id/btn_talvez"
+                                android:layout_width="55dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/ic_talvez"
+                                android:layout_gravity="center"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Talvez"
+                                android:gravity="center"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:orientation="vertical">
+                            <Button
+                                android:id="@+id/btn_si_haria"
+                                android:layout_width="55dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/ic_si_lo_haria"
+                                android:layout_gravity="center"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Si lo haría"
+                                android:gravity="center"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!---->
+        </LinearLayout>
+    </LinearLayout>
+</layout>
+

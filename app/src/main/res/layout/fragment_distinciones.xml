@@ -1,0 +1,119 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.bbva.intranet.behappy.modules.Recompensas.DistincionesFragment">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+                   <!--contenido-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="#ab94d9">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+
+                          <ImageView
+                              android:layout_width="163dp"
+                              android:layout_height="wrap_content"
+                              android:background="@drawable/estrella_distinciones1" />
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+                              <TextView
+                                  android:layout_width="135dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginTop="15dp"
+                                  android:text="MIS DISTINCIONES"
+                                  android:textColor="@color/white"
+                                  android:textSize="16dp" />
+
+                              <LinearLayout
+                                  android:layout_width="162dp"
+                                  android:layout_height="90dp">
+
+                                  <Button
+                                      android:id="@+id/boton_redondo"
+                                      android:layout_width="70dp"
+                                      android:layout_height="70dp"
+                                      android:layout_marginLeft="40dp"
+                                      android:layout_marginTop="10dp"
+                                      android:background="@drawable/boton_redondo"
+                                      android:text="22"
+                                      android:textColor="@color/white"
+                                      android:textSize="26dp" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="37dp"
+                                  android:orientation="vertical">
+
+                                  <TextView
+                                      android:layout_width="118dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="25dp"
+                                      android:layout_marginTop="5dp"
+                                      android:text="¡Eres el mejor!"
+                                      android:textColor="@color/white"
+                                      android:textSize="16dp" />
+                              </LinearLayout>
+
+                          </LinearLayout>
+                  </LinearLayout>
+                  </LinearLayout>
+                   <!--buscador-->
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent">
+
+                      <ImageView
+                          android:layout_width="300dp"
+                          android:layout_height="43dp"
+                          android:layout_marginLeft="8dp"
+                          android:background="@drawable/buscador" />
+                  </LinearLayout>
+                   <!--texto-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="71dp">
+
+                      <TextView
+                          android:layout_width="261dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="25dp"
+                          android:gravity="center"
+                          android:text="Si tus compañeros están realizando una labor increíble, ¡Reconócelos! y envía una distinción"
+                          android:textSize="16dp" />
+                  </LinearLayout>
+                    <!--fragmen-->
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <fragment
+                          android:id="@+id/lista_distinciones_fragment"
+                          android:name="com.bbva.intranet.behappy.modules.recompensas.ListaDistincionesFragment"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          tools:layout="@layout/fragment_lista_distinciones" />
+
+                  </LinearLayout>
+
+
+
+                  <!--liearfinales-->
+              </LinearLayout>
+          </ScrollView>
+</layout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bbva.intranet.behappy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".modules.splash.SplashActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".modules.onboarding.OnboardingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.general.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".modules.animometro.CuentanosMasActivity" />
+        <activity android:name=".modules.animometro.EstadisticaActivity" />
+        <activity android:name=".modules.login.LoginActivity" />
+        <activity android:name=".modules.login.PassActivity" />
+        <activity android:name=".modules.recompensas.DetallesActivity" />
+        <activity android:name=".modules.recompensas.ResultStatusLogros2Activity" />
+        <activity android:name=".modules.eventos.DetallesEventosHistorialActivity" />
+        <activity android:name=".modules.eventos.ViernesBotaneroActivity" />
+        <activity android:name=".modules.eventos.ViernesBotanero2Activity" />
+        <activity android:name=".modules.eventos.CheckInActivity" />
+        <activity android:name=".modules.eventos.DetallesEventosProximosActivity" />
+        <activity android:name=".modules.eventos.DetallesProximosEventosActivity" />
+        <activity android:name=".modules.eventos.QueDiceTwitterActivity" />
+
+         <!--<activity-->
+            <!--android:name=".modules.recompensas.Distincion1Activity"-->
+            <!--android:theme="@style/AppTheme.NoActionBar" />-->
+        <!--<activity android:name=".modules.recompensas.ResultStatusDistincionesActivity" />-->
+        <!--<activity android:name=".modules.recompensas.ResultStatusLogrosActivity"></activity>-->
+    </application>
+
+</manifest>

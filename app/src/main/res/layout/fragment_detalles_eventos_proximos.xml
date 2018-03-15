@@ -1,0 +1,643 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bbva.intranet.behappy.modules.eventos.DetallesEventosProximosFragment">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <!--Contenido-->
+
+
+            <!--Contedor Nuevas tecnologis-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:background="@color/bluish"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        style="@style/Text.Size22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="4dp"
+                        android:text="Nuevas Tecnologias"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="104dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/img_frag_ntecnologia" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:src="@drawable/ico_redes" />
+                        </LinearLayout>
+
+                        <TextView
+                            style="@style/Text.Size12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:text="123" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="29dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:background="@drawable/ico_like" />
+                        </LinearLayout>
+
+                        <TextView
+                            style="@style/Text.Size12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="442"
+                            android:layout_marginTop="10dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView13"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:background="@drawable/ico_amigos" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            style="@style/Text.Size12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="164"
+                            android:layout_marginTop="10dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:id="@+id/imageView20"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:background="@drawable/ic_tecnologia_blue"
+                                android:layout_marginTop="5dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            style="@style/Text.Size12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2d"
+                            android:layout_marginTop="10dp"
+                            android:gravity="right"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--/Contedor Nuevas tecnologis-->
+
+            <!--Contenedor Creador evento-->
+            <LinearLayout
+                android:id="@+id/container_creador_evento"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_creador_evento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_creador_evento" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_evento"
+                        android:layout_width="211dp"
+                        android:layout_height="wrap_content"
+                        android:text="Evento creado por"
+                        style="@style/Text.Size12"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/gray500"/>
+
+                    <TextView
+                        android:id="@+id/text_area_creadora_evento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dirección de desarrollo "
+                        style="@style/Text.Size16"/>
+
+                    <TextView
+                        android:id="@+id/text_nombre_creador_evento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Armando Montevideo Degrass"
+                        style="@style/Text.Size14"/>
+
+                    <TextView
+                        android:id="@+id/text_fecha_evento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MARTES 12 AGOSTO 2017"
+                        style="@style/Text.Size12"
+                        android:textColor="@color/gray400"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/image_ubicacion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ico_ubicacion" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/text_ubicacion_evento"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Hotel Camino Real Polanco"
+                            style="@style/Text.Size14"
+                            android:textColor="@color/gray500"
+                            android:paddingLeft="5dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!----></LinearLayout>
+            <!--/Contenedor Creador evento-->
+            <!--Contenedor Descripcion Evento-->
+            <LinearLayout
+                android:id="@+id/container_desc_evento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView_file"
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_height="42dp"
+                        android:background="@drawable/ic_file_blue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/desc_evento"
+                        style="@style/Text.Size14"
+                        android:layout_width="211dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Descripción del evento"
+                        android:textColor="@color/gray500" />
+
+                    <TextView
+                        android:id="@+id/text_desc_evento"
+                        style="@style/Text.Size16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="Conferencia con ponentes del tema, compartiendo su visión en los productos tecnológicos en el Siglo XXI." />
+
+
+                    <Button
+                        android:id="@+id/btn_leer_mas"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="Leer mas"
+                        android:textSize="12dp"
+                        android:textColor="@color/bluish" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--/Contenedor Descripcion Evento-->
+            <!--Contenedor Que Dicen en Twitter-->
+            <LinearLayout
+                android:id="@+id/container_que_dicen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView_twitter"
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_height="42dp"
+                        android:src="@drawable/ico_twitter" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/que_dicen_twitter"
+                        style="@style/Text.Size14"
+                        android:layout_width="211dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Qué dicen en Twitter"
+                        android:textColor="@color/gray500" />
+
+                    <TextView
+                        android:id="@+id/text_enlaces_twitter"
+                        style="@style/Text.Size18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#nuevastecnologias #bhappyhoy #bancomerhappy #eventosbhappy"
+                        android:textColor="@color/bluish_two"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--/Contenedor Que Dicen en Twitter-->
+            <!--Contenedor Fragment Comparte Fotos-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:orientation="vertical">
+
+                <fragment
+                    android:id="@+id/frament_compartir_foto"
+                    android:name="com.bbva.intranet.behappy.modules.eventos.CompartirFotoFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:layout="@layout/fragment_compartir_foto" />
+
+            </LinearLayout>
+            <!--/Contenedor Fragment Comparte Fotos-->
+            <!--Contenedor Califica y obetn Puntos-->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_height="42dp"
+                        android:background="@drawable/ic_feliz_blue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Participa y obtén puntos"
+                        style="@style/Text.Size18"
+                        android:textColor="@color/gray500"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="122dp"
+                            android:layout_height="40dp"
+                            android:orientation="vertical">
+                            <Button
+                                android:id="@+id/btn_califica"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Califica"
+                                android:background="@drawable/btn_solid_yellow"
+                                android:textColor="@color/white"
+                                style="@style/Text.Size16"
+                                android:textAllCaps="false"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginLeft="12dp"
+                            android:layout_width="122dp"
+                            android:layout_height="40dp">
+                            <Button
+                                android:id="@+id/btn_comenta"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Comenta"
+                                style="@style/Text.Size16"
+                                android:background="@drawable/btn_solid_blue"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Valoracion de los usuarios"
+                        style="@style/Text.Size12"
+                        android:textColor="@color/gray500"/>
+                </LinearLayout>
+            </LinearLayout>
+            <!--Contenedor Califica y obetn Puntos-->
+
+            <!---->
+            <!--Contenedor Comentarios-->
+            <LinearLayout
+                android:id="@+id/container_comentarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--/Comentario 1-->
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="56dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="40dp"
+                            android:layout_gravity="center"
+                            android:layout_height="42dp"
+                            android:background="@drawable/img_user1_com_evento" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_nombre_user_coment_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ricardo Pedraza Rosales"
+                            style="@style/Text.Size14"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="28dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="84dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/image_puntuacion_comentario"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_ratingbar" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="84dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/text_fecha_comentario"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="12/08/2017" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/text_contenido_comentario_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Muy bien la conferencia y los ponentes, me gustó mucho la presentación de todos, la duración fue excelente."
+                                style="@style/Text.Size16"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--/Comentario 1-->
+                <!--Comentario_2-->
+                <LinearLayout
+                    android:id="@+id/container_comentarios2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="56dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_usuario_2"
+                            android:layout_width="40dp"
+                            android:layout_gravity="center"
+                            android:layout_height="42dp"
+                            android:background="@drawable/img_user2_com_evento" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_nombre_user_coment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Teresa Nuñez Villegas"
+                            style="@style/Text.Size14"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="28dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="84dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/image_puntuacion_comentario_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/img_ratingbar" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="84dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/text_fecha_comentario2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="12/08/2017" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/text_contenido_comentario"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="La conferencia estuvo muy interesesante, las participaciones de los asistentes agregaron un muy buen nivel, espero se continuen haciendo este tipo de eventos."
+                                style="@style/Text.Size16"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--/Comentario_2-->
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/contenedor_btn_mas_comentarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_mas_comentarios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver más comentarios"
+                    android:textAllCaps="true"
+                    android:textColor="@color/aqua"
+                    style="@style/Text.Size18"
+                    android:layout_gravity="center"
+                    android:background="@color/white"/>
+            </LinearLayout>
+            <!--/Contenedor Comentarios-->
+
+            <!--/Contenido-->
+        </LinearLayout>
+    </ScrollView>
+
+</layout>
