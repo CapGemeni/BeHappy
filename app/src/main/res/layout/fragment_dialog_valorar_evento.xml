@@ -25,7 +25,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="5"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_marginTop="23dp">
                 <ImageView
                     android:id="@+id/btn_cerrar"
                     android:layout_width="wrap_content"
@@ -69,6 +70,7 @@
             </RelativeLayout>
 
             <LinearLayout
+                android:layout_marginTop="34dp"
                 android:layout_width="match_parent"
                 android:layout_height="174dp"
                 android:layout_weight="5"
@@ -96,7 +98,16 @@
                     android:layout_marginTop="7dp"
 
                     android:progressTint="@color/yellow"/>
+
+
             </LinearLayout>
+            <Button
+                android:id="@+id/btn_valorar_evento"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Continuar"
+                android:background="@color/core_blue"
+                android:textColor="@color/white"/>
         </LinearLayout>
 
     </LinearLayout>

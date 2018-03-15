@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 
 import com.bbva.intranet.behappy.R;
 import com.bbva.intranet.behappy.databinding.FragmentDialogValorarEventoBinding;
+import com.bbva.intranet.behappy.modules.recompensas.PuntosTotalesFragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,6 +22,7 @@ public class DialogValorarEvento extends DialogFragment implements View.OnClickL
 
     FragmentDialogValorarEventoBinding binding;
     DialogValorarEventoListener listener;
+    PuntosTotalesFragment fragment;
 
     public DialogValorarEvento() {
         // Required empty public constructor
@@ -52,6 +54,7 @@ public class DialogValorarEvento extends DialogFragment implements View.OnClickL
     private void  setListener(){
         binding.ratingValorarEvento.setOnClickListener(this);
         binding.btnCerrar.setOnClickListener(this);
+        binding.btnValorarEvento.setOnClickListener(this);
     }
 
     @Override
@@ -59,9 +62,19 @@ public class DialogValorarEvento extends DialogFragment implements View.OnClickL
         if (view.getId() == R.id.btn_cerrar){
             dismiss();
         }
-        if (view.getId() == R.id.rating_valorar_evento){
+        if (view.getId()==R.id.btn_valorar_evento){
+            fragment = PuntosTotalesFragment.newInstance(new PuntosTotalesFragment.PuntosTotalesListener() {
+                @Override
+                public void onContinue() {
+
+                }
+            });
+
+            FragmentManager fm = getFragmentManager();
+            fragment.show(fm, "Dialog Fragment");
             dismiss();
         }
+
     }
 
     public interface DialogValorarEventoListener{

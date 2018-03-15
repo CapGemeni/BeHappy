@@ -16,7 +16,7 @@
             android:layout_marginRight="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="50dp"
-            android:background="@color/white"
+            android:background="@drawable/bacground_dialog_message"
             android:orientation="vertical">
             <!--contenido-->
             <LinearLayout

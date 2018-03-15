@@ -10,14 +10,22 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.bbva.intranet.behappy.R;
 import com.bbva.intranet.behappy.databinding.FragmentComentarEventoDialogBinding;
+import com.bbva.intranet.behappy.modules.recompensas.PuntosTotalesFragment;
 
 public class ComentarEventoDialog extends DialogFragment implements View.OnClickListener {
 
+
     FragmentComentarEventoDialogBinding binding;
     ComentarEventoDialogListener listener;
+    PuntosTotalesFragment dfragment;
+
+
+
 
 
     public ComentarEventoDialog() {
@@ -53,6 +61,7 @@ public class ComentarEventoDialog extends DialogFragment implements View.OnClick
     private void setListener(){
         binding.btnCerrar.setOnClickListener(this);
         binding.btnEnviarComentario.setOnClickListener(this);
+
     }
 
     @Override
@@ -60,8 +69,23 @@ public class ComentarEventoDialog extends DialogFragment implements View.OnClick
         if (view.getId() == R.id.btn_cerrar){
             dismiss();
         }
-        if (view.getId() == R.id.btn_enviar_comentario){
-            dismiss();
+        if(view.getId() == R.id.btn_enviar_comentario){
+            EditText comentarios = (EditText)binding.editEnviarSugerencia;
+            if (comentarios.getText().toString().isEmpty()){
+                dismiss();
+            }else{
+                dfragment = PuntosTotalesFragment.newInstance(new PuntosTotalesFragment.PuntosTotalesListener() {
+                    @Override
+                    public void onContinue() {
+
+                    }
+                });
+
+                    FragmentManager fm = getFragmentManager();
+                    dfragment.show(fm, "Dialog Fragment");
+                    dismiss();
+            }
+
         }
     }
 
