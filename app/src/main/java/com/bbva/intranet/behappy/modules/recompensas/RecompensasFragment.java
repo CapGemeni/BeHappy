@@ -41,7 +41,7 @@ public class RecompensasFragment extends Fragment {
 
         TabLayout tabLayout = (TabLayout) binding.tabLayout;
         tabLayout.addTab(tabLayout.newTab().setText("BADGETS"));
-        tabLayout.addTab(tabLayout.newTab().setText("DISTINCIONES"));
+        tabLayout.addTab(tabLayout.newTab().setText("LOGROS"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) binding.viewPager;
